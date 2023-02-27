@@ -1,0 +1,117 @@
+body{
+    background: #242a27 !important;
+}
+.navbar-brand{
+    margin-top: 5px;
+}
+#logo_me {
+    width: 35px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background-color: gold !important;
+    border-radius: 13px;
+    padding: 8px;
+}
+#logo_name{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    margin: 0px 15px;
+}
+.nav-item a:hover{
+    border: 2px solid black;
+    background-color:black;
+    border-radius:12px ;
+    color: white !important;
+}
+.nav-item a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* background img starts hare  */
+
+/* .content::before{
+    content: "";
+    position: absolute;
+    background:rgba(0,0,0,0.7) url(../img/background.webp) no-repeat center center/cover;
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    margin-top: 73px;
+} */
+
+
+
+.content{
+    width: 100%;
+    height: 100%;
+
+  
+}
+/* background img end hare  */
+
+/* fixed section  */
+.fixed_me{
+    width: 100%;
+    color: white;
+    background: #515553;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* classes  */
+
+.content h3 {
+    color: white;
+    margin: 20px 20px;
+}
+
+.cards_me {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    margin: 10px 21px;
+}
+
+.card-img-top{
+    height: 215px;
+}
+
+/* card functions  */
+.outer{
+    position: relative;
+    
+}
+
+.iner{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#iner_me{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+/* .outer:hover .iner{
+    display: block;
+} */
+
