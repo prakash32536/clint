@@ -4,6 +4,9 @@ let displayImage3 = document.getElementById("image3")
 let displayImage4 = document.getElementById("image4")
 let displayImage5 = document.getElementById("image5")
 let displayImage6 = document.getElementById("image6")
+let displayImage7 = document.getElementById("image7")
+let displayImage8 = document.getElementById("image8")
+let displayImage9 = document.getElementById("image9")
 
 
 function changeImage(){
@@ -74,6 +77,42 @@ function changeImage6(){
 }
 displayImage6.addEventListener("click", function(){
     changeImage6()
+})
+
+// for img 7
+
+function changeImage7(){
+    if(displayImage7.src=("../img/class 10 tbse.png" )){
+        // console.log("hello")
+            displayImage7.src = "../img/class 10 black.png" 
+    }
+}
+displayImage7.addEventListener("click", function(){
+    changeImage7()
+})
+
+// for img 8
+
+function changeImage8(){
+    if(displayImage8.src=("../img/class 10 cbse.png")){
+        // console.log("hello")
+            displayImage8.src =  "../img/class 10 black.png" 
+    }
+}
+displayImage8.addEventListener("click", function(){
+    changeImage8()
+})
+
+// for img 9
+
+function changeImage9(){
+    if(displayImage9.src=("../img/class 10 icse.png" )){
+        // console.log("hello")
+            displayImage9.src =  "../img/class 10 black.png" 
+    }
+}
+displayImage9.addEventListener("click", function(){
+    changeImage9()
 })
 
 

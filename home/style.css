@@ -67,6 +67,7 @@
 .content p{
   color: white;
   margin-top: 15px;
+  padding: 0px 10px;
 }
 
 .content button {
