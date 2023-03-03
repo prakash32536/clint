@@ -7,6 +7,13 @@ let displayImage6 = document.getElementById("image6")
 let displayImage7 = document.getElementById("image7")
 let displayImage8 = document.getElementById("image8")
 let displayImage9 = document.getElementById("image9")
+let displayImage10 = document.getElementById("image10")
+let displayImage11 = document.getElementById("image11")
+let displayImage12 = document.getElementById("image12")
+let displayImage13 = document.getElementById("image13")
+let displayImage14 = document.getElementById("image14")
+let displayImage15 = document.getElementById("image15")
+let displayImage16 = document.getElementById("image16")
 
 
 function changeImage(){
@@ -114,5 +121,87 @@ function changeImage9(){
 displayImage9.addEventListener("click", function(){
     changeImage9()
 })
+// for img 10
 
+function changeImage10(){
+    if(displayImage10.src=("../img/class 11 tbse.png" )){
+        // console.log("hello")
+            displayImage10.src =  "../img/class 11 black.png" 
+    }
+}
+displayImage10.addEventListener("click", function(){
+    changeImage10()
+})
+
+// for img 11
+
+function changeImage11(){
+    if(displayImage11.src=("../img/class 11 cbse.png" )){
+        // console.log("hello")
+            displayImage11.src =  "../img/class 11 black.png"  
+    }
+}
+displayImage11.addEventListener("click", function(){
+    changeImage11()
+})
+
+// for img 12
+
+function changeImage12(){
+    if(displayImage12.src=("../img/class 11 icse.png" )){
+        // console.log("hello")
+            displayImage12.src = "../img/class 11 black.png" 
+    }
+}
+displayImage12.addEventListener("click", function(){
+    changeImage12()
+})
+
+// for img 13
+
+function changeImage13(){
+    if(displayImage13.src=("../img/entrcance.png" )){
+        // console.log("hello")
+            displayImage13.src = "../img/Entrance.png" 
+    }
+}
+displayImage13.addEventListener("click", function(){
+    changeImage13()
+})
+
+// for img 14
+
+function changeImage14(){
+    if(displayImage14.src=("../img/class 12 tbse.png" )){
+        // console.log("hello")
+            displayImage14.src = "../img/class 12 black.png" 
+    }
+}
+displayImage14.addEventListener("click", function(){
+    changeImage14()
+})
+
+// for img 15
+
+function changeImage15(){
+    if(displayImage15.src=("../img/class 12 cbse.png"  )){
+        // console.log("hello")
+            displayImage15.src = "../img/class 12 black.png" 
+    }
+}
+displayImage15.addEventListener("click", function(){
+    changeImage15()
+})
+
+// for img 16
+
+function changeImage16(){
+    if(displayImage16.src=("../img/class 12 icse.png" )){
+        // console.log("hello")
+            displayImage16.src = "../img/class 12 black.png" 
+    }
+}
+displayImage16.addEventListener("click", function(){
+    changeImage16()
+})
 
